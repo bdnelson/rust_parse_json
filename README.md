@@ -19,3 +19,8 @@ I will be concentrating on the most automated approaches to parsing of JSON usin
     * [GitHub](https://github.com/serde-rs/json)
     * [Crates.io](https://crates.io/crates/serde_json)
     * [Docs](https://docs.serde.rs/serde/json)
+
+## Examples
+
+* `00_simple` - Serialize/deserialize simple structures in memory.
+* `01_from_file` - Deserialize simple structure from file IO.
