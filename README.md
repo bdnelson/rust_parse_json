@@ -20,8 +20,26 @@ I will be concentrating on the most automated approaches to parsing of JSON usin
     * [Crates.io](https://crates.io/crates/serde_json)
     * [Docs](https://docs.serde.rs/serde/json)
 
+## Topics to Cover
+
+* Serialization
+    - [x] To memory
+    - [x] To IO buffer
+* Deserialization
+    - [x] From memory
+    - [x] From IO buffer
+* Advanced Structures
+    - [ ] Enums
+    - [ ] Arrays
+    - [ ] Objects
+* [ ] Optional attributes
+* [ ] Default values
+* [ ] Error handling
+
 ## Examples
 
 * `00_simple` - Serialize/deserialize simple structures in memory.
 * `01_from_file` - Deserialize simple structure from file IO.
 * `02_to_file` - Serialize simple structure to file.
+
+All samples can be executed by `cargo run --bin EXAMPLE_NAME`.
