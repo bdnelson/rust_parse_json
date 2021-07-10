@@ -328,6 +328,7 @@ PathBufVisitor	/Users/bdnelson/.cargo/registry/src/github.com-1ecc6299db9ec823/s
 PathVisitor	/Users/bdnelson/.cargo/registry/src/github.com-1ecc6299db9ec823/serde-1.0.126/src/de/impls.rs	/^struct PathVisitor;$/;"	s
 Person	/Users/bdnelson/src/Training/Rust/parse_json/src/bin/00_simple.rs	/^struct Person {$/;"	s
 Person	/Users/bdnelson/src/Training/Rust/parse_json/src/bin/01_from_file.rs	/^struct Person {$/;"	s
+Person	/Users/bdnelson/src/Training/Rust/parse_json/src/bin/02_to_file.rs	/^struct Person {$/;"	s
 PhantomDataVisitor	/Users/bdnelson/.cargo/registry/src/github.com-1ecc6299db9ec823/serde-1.0.126/src/de/impls.rs	/^struct PhantomDataVisitor<T: ?Sized> {$/;"	s
 Position	/Users/bdnelson/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_json-1.0.64/src/read.rs	/^pub struct Position {$/;"	s
 PrettyFormatter	/Users/bdnelson/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_json-1.0.64/src/ser.rs	/^pub struct PrettyFormatter<'a> {$/;"	s
@@ -1199,6 +1200,7 @@ line	/Users/bdnelson/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_json-
 long_mul	/Users/bdnelson/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_json-1.0.64/src/lexical/math.rs	/^    fn long_mul(x: &[Limb], y: &[Limb]) -> Vec<Limb> {$/;"	f
 main	/Users/bdnelson/src/Training/Rust/parse_json/src/bin/00_simple.rs	/^fn main() {$/;"	f
 main	/Users/bdnelson/src/Training/Rust/parse_json/src/bin/01_from_file.rs	/^fn main() {$/;"	f
+main	/Users/bdnelson/src/Training/Rust/parse_json/src/bin/02_to_file.rs	/^fn main() {$/;"	f
 make_error	/Users/bdnelson/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_json-1.0.64/src/error.rs	/^fn make_error(mut msg: String) -> Error {$/;"	f
 mantissa	/Users/bdnelson/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_json-1.0.64/src/lexical/num.rs	/^    fn mantissa(self) -> Self::Unsigned {$/;"	f
 mantissa_limit	/Users/bdnelson/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_json-1.0.64/src/lexical/num.rs	/^    fn mantissa_limit() -> i32 {$/;"	f

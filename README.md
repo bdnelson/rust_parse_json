@@ -24,3 +24,4 @@ I will be concentrating on the most automated approaches to parsing of JSON usin
 
 * `00_simple` - Serialize/deserialize simple structures in memory.
 * `01_from_file` - Deserialize simple structure from file IO.
+* `02_to_file` - Serialize simple structure to file.
