@@ -35,7 +35,7 @@ I will be concentrating on the most automated approaches to parsing of JSON usin
     - [x] Vectors
     - [x] HashMaps
     - [x] Structs
-* [ ] Optional attributes
+* [x] Optional attributes
 * [ ] Default values
 * [ ] Error handling
 
@@ -50,5 +50,14 @@ I will be concentrating on the most automated approaches to parsing of JSON usin
 * `06_vector` - Vector in the data structure.
 * `07_hashmap` - HashMap in the data structure.
 * `08_struct` - Struct in the data structure.
+* `09_optional` - Option in the data structure.
 
 All samples can be executed by `cargo run --bin EXAMPLE_NAME`.
+
+## Notes
+
+* Data serializes and deserializes as you would expect.  No surprises or wierd handling of data.
+* Enums have some advanced cases that I did not cover as I focused on the simplest enums.  See the Serde docs for more details:
+    - [Structs and enums in JSON](https://serde.rs/json.html)
+    - [Enum representations](https://serde.rs/enum-representations.html)
+* There are a lot of [attributes](https://serde.rs/attributes.html) that you can use to control specific cases with serialization/deserialization.
