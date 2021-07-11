@@ -30,8 +30,10 @@ I will be concentrating on the most automated approaches to parsing of JSON usin
     - [x] From IO buffer
 * Advanced Structures
     - [x] Enums
-    - [x] Tuple
-    - [ ] Arrays
+    - [x] Tuples
+    - [x] Arrays
+    - [ ] Vectors
+    - [ ] Hashes
     - [ ] Objects
 * [ ] Optional attributes
 * [ ] Default values
