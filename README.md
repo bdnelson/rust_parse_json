@@ -33,7 +33,7 @@ I will be concentrating on the most automated approaches to parsing of JSON usin
     - [x] Tuples
     - [x] Arrays
     - [x] Vectors
-    - [ ] Hashes
+    - [x] HashMaps
     - [ ] Objects
 * [ ] Optional attributes
 * [ ] Default values
@@ -45,5 +45,9 @@ I will be concentrating on the most automated approaches to parsing of JSON usin
 * `01_from_file` - Deserialize simple structure from file IO.
 * `02_to_file` - Serialize simple structure to file.
 * `03_enums` - Enums in the data structure.
+* `04_tuple` - Tuples in the data structure.
+* `05_array` - Array in the data structure.
+* `06_vector` - Vector in the data structure.
+* `07_hashmap` - HashMap in the data structure.
 
 All samples can be executed by `cargo run --bin EXAMPLE_NAME`.
