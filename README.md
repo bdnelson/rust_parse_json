@@ -36,7 +36,7 @@ I will be concentrating on the most automated approaches to parsing of JSON usin
     - [x] HashMaps
     - [x] Structs
 * [x] Optional attributes
-* [ ] Default values
+* [x] Default values
 * [ ] Error handling
 
 ## Examples
@@ -51,6 +51,7 @@ I will be concentrating on the most automated approaches to parsing of JSON usin
 * `07_hashmap` - HashMap in the data structure.
 * `08_struct` - Struct in the data structure.
 * `09_optional` - Option in the data structure.
+* `10_default` - Default values in deserialization.
 
 All samples can be executed by `cargo run --bin EXAMPLE_NAME`.
 
