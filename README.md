@@ -34,7 +34,7 @@ I will be concentrating on the most automated approaches to parsing of JSON usin
     - [x] Arrays
     - [x] Vectors
     - [x] HashMaps
-    - [ ] Objects
+    - [x] Structs
 * [ ] Optional attributes
 * [ ] Default values
 * [ ] Error handling
@@ -49,5 +49,6 @@ I will be concentrating on the most automated approaches to parsing of JSON usin
 * `05_array` - Array in the data structure.
 * `06_vector` - Vector in the data structure.
 * `07_hashmap` - HashMap in the data structure.
+* `08_struct` - Struct in the data structure.
 
 All samples can be executed by `cargo run --bin EXAMPLE_NAME`.
