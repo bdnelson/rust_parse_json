@@ -32,7 +32,7 @@ I will be concentrating on the most automated approaches to parsing of JSON usin
     - [x] Enums
     - [x] Tuples
     - [x] Arrays
-    - [ ] Vectors
+    - [x] Vectors
     - [ ] Hashes
     - [ ] Objects
 * [ ] Optional attributes
