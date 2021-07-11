@@ -29,7 +29,7 @@ I will be concentrating on the most automated approaches to parsing of JSON usin
     - [x] From memory
     - [x] From IO buffer
 * Advanced Structures
-    - [ ] Enums
+    - [x] Enums
     - [ ] Arrays
     - [ ] Objects
 * [ ] Optional attributes
@@ -41,5 +41,6 @@ I will be concentrating on the most automated approaches to parsing of JSON usin
 * `00_simple` - Serialize/deserialize simple structures in memory.
 * `01_from_file` - Deserialize simple structure from file IO.
 * `02_to_file` - Serialize simple structure to file.
+* `03_enums` - Enums in the data structure.
 
 All samples can be executed by `cargo run --bin EXAMPLE_NAME`.
