@@ -37,7 +37,7 @@ I will be concentrating on the most automated approaches to parsing of JSON usin
     - [x] Structs
 * [x] Optional attributes
 * [x] Default values
-* [ ] Error handling
+* [x] Error handling
 
 ## Examples
 
@@ -52,6 +52,7 @@ I will be concentrating on the most automated approaches to parsing of JSON usin
 * `08_struct` - Struct in the data structure.
 * `09_optional` - Option in the data structure.
 * `10_default` - Default values in deserialization.
+* `11_error` - Error handling.
 
 All samples can be executed by `cargo run --bin EXAMPLE_NAME`.
 
@@ -61,4 +62,6 @@ All samples can be executed by `cargo run --bin EXAMPLE_NAME`.
 * Enums have some advanced cases that I did not cover as I focused on the simplest enums.  See the Serde docs for more details:
     - [Structs and enums in JSON](https://serde.rs/json.html)
     - [Enum representations](https://serde.rs/enum-representations.html)
+    - [Serialize enum as number](https://serde.rs/enum-number.html)
 * There are a lot of [attributes](https://serde.rs/attributes.html) that you can use to control specific cases with serialization/deserialization.
+* The identification of specific errors is hidden from consumers of this crate.  I don't think this is a real problem - you can identify the general type of error, the line and column of the problem and display a description.
